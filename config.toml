@@ -1,0 +1,3 @@
+[mail]
+    subject_pc_down = "Target PC down"
+    template_pc_down = "./src/mail/templates/pc_down.txt"
