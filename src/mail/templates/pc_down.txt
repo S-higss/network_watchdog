@@ -1,6 +1,6 @@
-!!Warning!!
+** Warning **
 
-Target PC is down.
-Check the status of the PC asap.
+The target PC has been detected as down.  
+Please check the status of the PC as soon as possible.
 
-Detail
+Details:

@@ -1,5 +1,5 @@
 [mail]
-    subject_pc_down = "[Warning]Target PC down"
+    subject_pc_down = "[Warning]Target PC is Down"
     template_pc_down = "./src/mail/templates/pc_down.txt"
-    subject_pc_up = "[Notice]Target PC up"
+    subject_pc_up = "[Notice]Target PC is Up"
     template_pc_up = "./src/mail/templates/pc_up.txt"

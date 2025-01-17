@@ -30,12 +30,12 @@ def job_and_display_next_run_time(run_minutes=0, ip=0):
     monitor = ping_sender(ip)
     if monitor:
         if not PREVIOUS_STATUS:
-            print("Target PC is up!")
+            print("\n\033[31mTarget PC is up!\033[0m\n")
             up_mail_sender(ip)
         PREVIOUS_STATUS = True
     else:
         if PREVIOUS_STATUS:
-            print("Target PC is down!")
+            print("\n\033[31mTarget PC is down!\033[0m\n")
             # Send an email
             down_mail_sender(ip)
         PREVIOUS_STATUS = False

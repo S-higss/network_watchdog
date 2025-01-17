@@ -1,6 +1,6 @@
 Notice
 
-Target PC is up.
-Check the status of the PC.
+The target PC has been detected as back online.  
+Please check the status of the PC for confirmation.
 
-Detail
+Details:
