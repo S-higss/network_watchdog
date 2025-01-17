@@ -2,3 +2,5 @@
 
 Target PC is down.
 Check the status of the PC asap.
+
+Detail

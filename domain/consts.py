@@ -18,9 +18,8 @@ class ConstantMeta(type):
         super().__init__(*args, **kwargs)
         cls._initialized = True
 
-
 # 定数を管理するためのクラス
 class SystemConstants(metaclass=ConstantMeta):
-    config = "config.toml"
+    config = "./lib/config.toml"
     config_secret = "./lib/config_secret.toml"
     encode = "utf-8"
